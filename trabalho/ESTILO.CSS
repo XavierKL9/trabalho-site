@@ -1,0 +1,139 @@
+css
+body {
+    background-color: white;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 200;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    padding: 2rem 0;
+}
+
+header h1 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: gray;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: black;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.services {
+    text-align: center;
+    margin: 3rem 0;
+}
+
+.services h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.service-item {
+    margin: 2rem 0;
+}
+
+.service-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+.service-item p {
+    margin-top: 0.5rem;
+}
+
+.news {
+    margin: 3rem 0;
+}
+
+.news h2 {
+    font-size: 1.25rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.news p {
+    margin-top: 1rem;
+}
+
+.news .source {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.news .source a {
+    color: blue;
+    text-decoration: none;
+}
+
+.news .source a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #f3f3f3;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+footer h2 {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+footer p {
+    margin: 0.5rem 0;
+}
+
+footer a {
+    color: blue;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.social-icons {
+    margin: 1rem 0;
+}
+
+.social-icons a {
+    color: blue;
+    margin: 0 0.5rem;
+    font-size: 1.5rem;
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: darkblue;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items:center  ;
+    height: auto;
+}
+
